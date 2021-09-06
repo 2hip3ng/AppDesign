@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T07:46:11.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.9" etag="dtWvGlC9GVY7vRu4khy3" type="github"><diagram id="pWJTccJHbkGrZ-T3dp_w">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-06T07:54:58.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="7gTAqyP-oSXYmbgNCG8R" version="14.9.9" type="github">
+  <diagram id="pWJTccJHbkGrZ-T3dp_w" name="Page-1">
+    <mxGraphModel dx="646" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="gofxeQiYKyiIvzO1Vzxt-1" target="gofxeQiYKyiIvzO1Vzxt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-15" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gofxeQiYKyiIvzO1Vzxt-13">
+          <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-1" value="SPAClient" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="130" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gofxeQiYKyiIvzO1Vzxt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-17" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gofxeQiYKyiIvzO1Vzxt-6">
+          <mxGeometry x="-0.2" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;entryX=0.977;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gofxeQiYKyiIvzO1Vzxt-2" target="gofxeQiYKyiIvzO1Vzxt-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-16" value="返回响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gofxeQiYKyiIvzO1Vzxt-14">
+          <mxGeometry x="0.0578" y="-2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-2" value="SPAServer" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="291" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-10" value="创建应用" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gofxeQiYKyiIvzO1Vzxt-7" target="gofxeQiYKyiIvzO1Vzxt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gofxeQiYKyiIvzO1Vzxt-7" target="gofxeQiYKyiIvzO1Vzxt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-18" value="建立工作线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gofxeQiYKyiIvzO1Vzxt-12">
+          <mxGeometry x="-0.0607" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; line-height: 21px;&quot;&gt;SPAAppManager&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-8" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; line-height: 21px;&quot;&gt;SPAApp&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gofxeQiYKyiIvzO1Vzxt-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; line-height: 21px;&quot;&gt;&lt;div style=&quot;font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; line-height: 21px; font-size: 16px;&quot;&gt;SPAWorkThread&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="146" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
