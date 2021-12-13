@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T06:33:52.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.2.7" etag="uEN9J9XDsN7No0QJdhOi" type="github"><diagram id="lBs2sdREDsFlxjPXYEm8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-13T06:53:33.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Lf8UPfnQglcBYM9_4_-K" version="15.2.7" type="github">
+  <diagram id="lBs2sdREDsFlxjPXYEm8" name="Page-1">
+    <mxGraphModel dx="646" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-1" value="Bidword Knowledge Graph Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-2" value="短语队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-3" value="高精队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-4" value="地域校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-5" value="作品校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="U-Sijkbqpb-_O7jYR76d-2" target="U-Sijkbqpb-_O7jYR76d-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="700" as="sourcePoint" />
+            <mxPoint x="410" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="U-Sijkbqpb-_O7jYR76d-3" target="U-Sijkbqpb-_O7jYR76d-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="150" as="sourcePoint" />
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="U-Sijkbqpb-_O7jYR76d-1" target="U-Sijkbqpb-_O7jYR76d-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366" y="280" as="sourcePoint" />
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-Sijkbqpb-_O7jYR76d-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="U-Sijkbqpb-_O7jYR76d-1" target="U-Sijkbqpb-_O7jYR76d-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="448" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
